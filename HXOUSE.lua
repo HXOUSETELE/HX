@@ -1401,7 +1401,7 @@ end
 if Chat_Type == 'pv' then 
 if text == '/start' then  
 if is_leader(msg) then
-local Sudo_Welcome = '*⌯︙اهلا بك عزيزي المطور الاساسي \n⌯︙اليك اوامر الكيبورد الخاص بسورس فايدر*'
+local Sudo_Welcome = '*⌯︙اهلا بك عزيزي المطور الاساسي \n⌯︙اليك اوامر الكيبورد الخاص بسورس هـكــسوس*'
 local key = {
 {'وضع اسم البوت','ضع كليشه المطور','تحديث'},
 {'الاحصائيات','المطورين','قائمه العام'},
@@ -3573,26 +3573,26 @@ hxouse = ''
 end
 hxousedx(msg.chat_id_, msg.id_, 1, hxouse, 1, 'md')
 end
-if text == 'سورس فايدر' or text == 'هذا سورس فايدر' then 
+if text == 'هكسوس' or text == 'هذا سورس هسكوس' then 
 if not hxousedx1:get(HXOUSE..'bot:rep:mute'..msg.chat_id_) then
-hxouse =  "لآ سٰٰٓوِرسٰٰٓ خٰ̐ہآلتَہَٰڪٰྀہٰٰٖ ديِٰہ لڪٰྀہٰٰٖ ┋՞❁ 🌞?? ﴾"
+hxouse =  "❁"
 else 
 hxouse = ''
 end
 hxousedx(msg.chat_id_, msg.id_, 1, hxouse, 1, 'md')
 end 
 if text == 'بوت' and hxouse11(msg) then 
-name_bot = (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'فايدر') 
+name_bot = (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'هـكــسوس') 
 local hxouse = {
- "اسمي "..name_bot.." 😒🔪 لتكول بوت"
+ "نراا أنــي أسـممي "..name_bot.." لتكول بوت حبي !"
 }
 hxouse2 = math.random(#hxouse)
 hxousedx(msg.chat_id_, msg.id_, 1, hxouse[hxouse2] , 1, 'md') 
 end
-if (text and text == (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'فايدر')) then
-name_bot = (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'فايدر')
+if (text and text == (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'هـكــسوس')) then
+name_bot = (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'هـكــسوس')
 local namebot = { 
- 'نعم حبي وياك '..name_bot..' كول شرايد 🌚❤️'
+ 'وياكك'..name_bot..'تفضل حبي؟'
 }
 name = math.random(#namebot)
 hxousedx(msg.chat_id_, msg.id_, 1, namebot[name] , 1, 'md') 
@@ -4193,7 +4193,7 @@ end
 end 
 ------------------------------------HXOUSE TEAM-----------------------------------------------------------
 if is_admin(msg.sender_user_id_, msg.chat_id_) then
-name_bot = (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'فايدر')
+name_bot = (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'هـكــسوس')
 if text ==  ""..name_bot..' غادر' and hxouse11(msg) then
 chat_leave(msg.chat_id_, bot_id)
 hxousedx1:srem(HXOUSE.."bot:groups",msg.chat_id_)
@@ -4778,16 +4778,16 @@ end
 if text:match("^هينه$") and hxouse11(msg) then
 function hena(extra, result, success)
 if tonumber(result.sender_user_id_) == tonumber(bot_id) then 
-hxousedx(msg.chat_id_, msg.id_, 1, ' شكد غبي لعد 🌚?? تريدني اهين نفسي ؟ دكسمك 😌😂', 1, 'md') 
+hxousedx(msg.chat_id_, msg.id_, 1, 'مو غبي أني دهين نفسي .. أنكلع لك قشمر !', 1, 'md') 
 return false  
 end  
 if tonumber(result.sender_user_id_) == tonumber(bot_owner) then  
-hxousedx(msg.chat_id_, msg.id_, 1, ' دي لك تريد اهين تاج راسك ؟ 🌚', 1, 'md')
+hxousedx(msg.chat_id_, msg.id_, 1, 'هذا ستادي أكو واحد يهين أستادة ؟', 1, 'md')
 return false
 end 
 local hxouse = " صار ستاذي 😌" 
 hxousedx(msg.chat_id_, msg.id_, 1,hxouse, 1, 'md') 
-local hxouse = {" ها لك جرجف اليوم اكتلك واخري ع كبرك 😈"," حضينه مستنقع الجبات صير عاقل لا اهفك بالنعال 😒"," قاروره جاروره بلاع العيوره لا تندك باسيادك 😒"," خاب دي لا احط بكسمك الديفدي واركعك بعير ثري دي  فرخي ابن جبتي 😒"} 
+local hxouse = {" ها لك جرجف بالنعال تراا😈"," تفوووووو أكعد لا اهفك بالنعال 😒"," ددي لك فاشل لا تندك باسيادك 😒"," خاب دي وصخخ 😒"} 
 hxousedx(msg.chat_id_, result.id_, 1,''..hxouse[math.random(#hxouse)]..'', 1, 'md') 
 end 
 if tonumber(msg.reply_to_message_id_) == 0 then
@@ -4798,16 +4798,16 @@ end
 if text:match("^بوسها$") or text:match("^بعد بوسها$") or text:match("^ضل بوس$") and hxouse11(msg) then
 function hena(extra, result, success)
 if tonumber(result.sender_user_id_) == tonumber(bot_id) then 
-hxousedx(msg.chat_id_, msg.id_, 1, ' حياتي بس فهمني شون ابوس نفسي وتدلل 😔😂', 1, 'md') 
+hxousedx(msg.chat_id_, msg.id_, 1, 'أويلي أبوس نفسي الف بوسهه 🙃', 1, 'md') 
 return false  
 end  
 if tonumber(result.sender_user_id_) == tonumber(bot_owner) then  
 hxousedx(msg.chat_id_, msg.id_, 1, ' اموووووووواح احلا بوسه لمطوري 😻', 1, 'md')
 return false
 end 
-local hxouse = " صار ستاذي راح اتماصص وياه 🙊😻" 
+local hxouse = " صار ستاذي راح ابوووسسههاا 🙊😻" 
 hxousedx(msg.chat_id_, msg.id_, 1,hxouse, 1, 'md') 
-local hxouse = {" تعالي حياتي خل نتماصص 😻👏"," اممممووووواااااح لصق الشفه 😻"," امح امح امح امح بوسه لو عسل 😼😻"} 
+local hxouse = {" تعالي حياتي خل أبووسس😻👏"," اممممووووواااااح لصق الشفه 😻"," امح امح امح امح بوسه لو عسل 😼😻"}
 hxousedx(msg.chat_id_, result.id_, 1,''..hxouse[math.random(#hxouse)]..'', 1, 'md') 
 end 
 if tonumber(msg.reply_to_message_id_) == 0 then
@@ -4825,9 +4825,9 @@ if tonumber(result.sender_user_id_) == tonumber(bot_owner) then
 hxousedx(msg.chat_id_, msg.id_, 1, ' اموووووووواح احلا بوسه لمطوري 😻', 1, 'md')
 return false
 end 
-local hxouse = " صار ستاذي راح اتماصص وياه 🙊😻" 
+local hxouse = " صار ستاذي راح ابووسسهه 🙊😻" 
 hxousedx(msg.chat_id_, msg.id_, 1,hxouse, 1, 'md') 
-local hxouse = {" تعالي حياتي خل نتماصص 😻👏"," اممممووووواااااح لصق الشفه 😻"," امح امح امح امح بوسه لو عسل 😼😻"} 
+local hxouse = {" تعالي حياتي خل أبووسسس😻👏"," اممممووووواااااح لصق الشفه 😻"," امح امح امح امح بوسه لو عسل 😼😻"} 
 hxousedx(msg.chat_id_, result.id_, 1,''..hxouse[math.random(#hxouse)]..'', 1, 'md') 
 end 
 if tonumber(msg.reply_to_message_id_) == 0 then
