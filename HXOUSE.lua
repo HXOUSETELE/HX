@@ -4616,8 +4616,8 @@ local text =  [[
 ⌯︙ رابط حذف التلي 
 ⌯︙ براحتك هو انت تطرب ع الحذف 
 ⌯︙ [ اضغط هنا لحذف الحساب ](https://telegram.org/deactivate) 
-⌯︙ [ اضغط هنا لديك مفاجئه ](https://t.me/joinchat/AAAAAEyMJ12igMsiNeXNjw)
-⌯︙ [ اضغط هنا لديك مفاجئه اخرى ](https://t.me/joinchat/AAAAAFRns8sOZdUdE6x1TQ) 
+⌯︙ [ اضغط هنا لديك مفاجئه ](https://t.me/hxouseiq)
+⌯︙ [ اضغط هنا لديك مفاجئه اخرى ](https://t.me/IlXPlI) 
 ]]
 hxousedx(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
