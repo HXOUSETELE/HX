@@ -3584,7 +3584,7 @@ end
 if text == 'بوت' and hxouse11(msg) then 
 name_bot = (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'هـكــسوس') 
 local hxouse = {
- "نراا أنــي أسـممي "..name_bot.." لتكول بوت حبي !"
+ "تراا أنــي أسـممي "..name_bot.." لتكول بوت حبي !"
 }
 hxouse2 = math.random(#hxouse)
 hxousedx(msg.chat_id_, msg.id_, 1, hxouse[hxouse2] , 1, 'md') 
@@ -3592,7 +3592,7 @@ end
 if (text and text == (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'هـكــسوس')) then
 name_bot = (hxousedx1:get('hxouse:'..bot_id..'name_bot') or 'هـكــسوس')
 local namebot = { 
- 'وياكك'..name_bot..'تفضل حبي؟'
+ ' وياكك '..name_bot..' تفضل حبي؟ '
 }
 name = math.random(#namebot)
 hxousedx(msg.chat_id_, msg.id_, 1, namebot[name] , 1, 'md') 
